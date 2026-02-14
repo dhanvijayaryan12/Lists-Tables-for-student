@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4: Lists & Tables</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h2 { border-bottom: 2px solid #ff7eb3; display: inline-block; padding-bottom: 5px; }
+
+        /* List Styling */
+        ul, ol { line-height: 1.8; margin-bottom: 30px; }
+        li::marker { color: #ff7eb3; font-weight: bold; }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        caption {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ff7eb3;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        th { background: rgba(255, 255, 255, 0.2); }
+
+        tfoot {
+            font-weight: bold;
+            background: rgba(255, 126, 179, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+   
+        <table>
+            <caption>Academic Performance Report</caption>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Marks Obtained</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>sanath</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>om</td>
+                    <td>92</td>
+                </tr>
+                <tr>
+                    <td>prince</td>
+                    <td>78</td>
+                </tr>
+            </tbody>
+           <tr>
+                    <td>manas</td>
+                    <td>85</td>
+                </tr>
+                   <tfoot>
+               
+                    <td>tatol pass Students</td>
+                    <td>4</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</body>
+</html>
+
+
